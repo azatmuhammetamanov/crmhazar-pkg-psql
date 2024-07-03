@@ -2,6 +2,7 @@ package crmhazar_pkg_psql
 
 import (
 	"context"
+	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 )
 

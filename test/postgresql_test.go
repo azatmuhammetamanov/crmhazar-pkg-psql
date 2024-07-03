@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/jackc/pgx/v5"
 	"github.com/stretchr/testify/assert"
-	"gitlab.com/salamtm.messenger/spsql"
+	spsql "gitlab.com/GadamGurbanov/crmhazar-pkg-psql"
 	"log"
 	"os"
 	"testing"
