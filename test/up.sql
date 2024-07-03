@@ -1,0 +1,5 @@
+CREATE TABLE test (
+    Id SERIAL PRIMARY KEY,
+    column_1 VARCHAR (50) NOT NULL,
+    column_2 VARCHAR (50) NOT NULL
+);
