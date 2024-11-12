@@ -3,12 +3,13 @@ package test
 import (
 	"context"
 	"fmt"
-	"github.com/jackc/pgx/v5"
-	"github.com/stretchr/testify/assert"
-	spsql "gitlab.com/GadamGurbanov/crmhazar-pkg-psql"
 	"log"
 	"os"
 	"testing"
+
+	spsql "github.com/azatmuhammetamanov/crmhazar-pkg-psql"
+	"github.com/jackc/pgx/v5"
+	"github.com/stretchr/testify/assert"
 )
 
 var options = spsql.Options{

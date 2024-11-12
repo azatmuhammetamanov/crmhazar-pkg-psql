@@ -3,12 +3,13 @@ package test
 import (
 	"context"
 	"fmt"
+	"log"
+	"time"
+
 	"github.com/docker/go-connections/nat"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 	"gitlab.com/salamtm.messenger/spsql"
-	"log"
-	"time"
 )
 
 //const (
